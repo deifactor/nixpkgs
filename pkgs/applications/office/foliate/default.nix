@@ -28,6 +28,7 @@ stdenv.mkDerivation rec {
   buildInputs = [
     gettext
     glib
+    glib-networking
     gjs
     gtk3
     webkitgtk
